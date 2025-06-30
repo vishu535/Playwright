@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"c9ae6cd8f4056b1e4df69647489238e2","name":"TC_Salesforce_Opportunity.spec.js","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"a353d6d59aee4f6bb353459fe467cd4a","name":"TC_Salesforce_SalesHeaders.spec.js","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

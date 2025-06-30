@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression" : "npx playwright test",
+    "salesforce" : "npx playwright test --grep @salesforce",
+    "test": "npx playwright test tests/ResponseIntercept.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.8.9",
+    "allure-playwright": "^2.9.2"
+  }
+}
