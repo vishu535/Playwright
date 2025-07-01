@@ -16,5 +16,5 @@ test('salesforce login', async({browser})=>{
     await loginPage.loginToSalesforceApplication(user, pwd)
     await homePage.navigateToSettings()
     await contactUsPage.switchToNewWindowSetup()
-    //this is test comment
+    //this is test comment updated by test-one
 })
