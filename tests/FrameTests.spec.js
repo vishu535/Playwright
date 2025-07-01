@@ -14,3 +14,4 @@ test('Academy project', async({page})=>{
     const frame1 = page.frameLocator("[src='frame_1.html']")
     await frame1.locator("input[name='mytext1']").fill(" Pulla");
 })
+//end of test
