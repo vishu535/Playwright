@@ -1,5 +1,6 @@
 const{test, expect} = require('@playwright/test')
-//this is test conflict
+
+//this is test conflict resolve
 test('Academy project', async({page})=>{
     await page.goto('https://ui.vision/demo/webtest/frames/')
     const allframes = page.frames();
@@ -14,3 +15,4 @@ test('Academy project', async({page})=>{
     const frame1 = page.frameLocator("[src='frame_1.html']")
     await frame1.locator("input[name='mytext1']").fill(" Pulla");
 })
+//end of test
